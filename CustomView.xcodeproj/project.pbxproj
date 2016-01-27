@@ -14,6 +14,8 @@
 		7180FA121C58EB8D00FAA419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7180FA101C58EB8D00FAA419 /* LaunchScreen.storyboard */; };
 		7180FA1D1C58EB8D00FAA419 /* CustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180FA1C1C58EB8D00FAA419 /* CustomViewTests.swift */; };
 		7180FA281C58EB8D00FAA419 /* CustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180FA271C58EB8D00FAA419 /* CustomViewUITests.swift */; };
+		7180FA361C58EBAB00FAA419 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180FA351C58EBAB00FAA419 /* CustomView.swift */; };
+		7180FA381C58EBB500FAA419 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7180FA371C58EBB500FAA419 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7180FA231C58EB8D00FAA419 /* CustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7180FA271C58EB8D00FAA419 /* CustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewUITests.swift; sourceTree = "<group>"; };
 		7180FA291C58EB8D00FAA419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7180FA351C58EBAB00FAA419 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		7180FA371C58EBB500FAA419 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				7180FA071C58EB8D00FAA419 /* AppDelegate.swift */,
 				7180FA091C58EB8D00FAA419 /* ViewController.swift */,
+				7180FA351C58EBAB00FAA419 /* CustomView.swift */,
+				7180FA371C58EBB500FAA419 /* CustomView.xib */,
 				7180FA0B1C58EB8D00FAA419 /* Main.storyboard */,
 				7180FA0E1C58EB8D00FAA419 /* Assets.xcassets */,
 				7180FA101C58EB8D00FAA419 /* LaunchScreen.storyboard */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7180FA121C58EB8D00FAA419 /* LaunchScreen.storyboard in Resources */,
+				7180FA381C58EBB500FAA419 /* CustomView.xib in Resources */,
 				7180FA0F1C58EB8D00FAA419 /* Assets.xcassets in Resources */,
 				7180FA0D1C58EB8D00FAA419 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7180FA361C58EBAB00FAA419 /* CustomView.swift in Sources */,
 				7180FA0A1C58EB8D00FAA419 /* ViewController.swift in Sources */,
 				7180FA081C58EB8D00FAA419 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +492,7 @@
 				7180FA2E1C58EB8D00FAA419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7180FA2F1C58EB8D00FAA419 /* Build configuration list for PBXNativeTarget "CustomViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				7180FA311C58EB8D00FAA419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7180FA321C58EB8D00FAA419 /* Build configuration list for PBXNativeTarget "CustomViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				7180FA341C58EB8D00FAA419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
